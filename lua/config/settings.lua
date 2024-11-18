@@ -5,8 +5,9 @@ vim.opt.relativenumber = true
 -- indents, tabs, and text handling 
 vim.opt.tabstop = 4
 vim.opt.softtabstop = 4
-vim.opt.shiftwidth = 5 
+vim.opt.shiftwidth = 4 
 vim.opt.expandtab = true
+vim.opt.autoindent = true
 vim.opt.smartindent = true
 vim.opt.wrap = false 
 
