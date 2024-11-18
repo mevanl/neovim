@@ -3,4 +3,4 @@
 
 require("config.remap")
 require("config.settings")
-require("config.lazy-plugin-manager")
+require("config.lazy")

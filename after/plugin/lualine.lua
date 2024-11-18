@@ -66,7 +66,7 @@ require('lualine').setup {
           lualine_y = 
           {
                clients_lsp,
-                icon = "  ",
+               {icon = "  "},
           },
           lualine_z = 
           {
@@ -76,9 +76,8 @@ require('lualine').setup {
                },
           },
      },
-     },
      tabline = {},
      winbar = {},
      inactive_winbar = {},
-     extensions = {}
+     extensions = {},
 }
