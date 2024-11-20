@@ -1,6 +1,6 @@
 require'nvim-treesitter.configs'.setup {
     -- list of parsers that will always be installed
-    ensure_installed = { "lua" },
+    ensure_installed = { "lua", "c_sharp" },
     sync_install = false,
     auto_install = true,
     ignore_install = {},
